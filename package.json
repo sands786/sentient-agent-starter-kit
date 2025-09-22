@@ -1,0 +1,22 @@
+{
+  "name": "sentient-agent-starter-kit",
+  "version": "1.0.0",
+  "description": "Starter Kit for building and deploying Sentient Agents with ready-to-use templates, examples, and docs.",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.2"
+  }
+}
